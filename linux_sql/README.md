@@ -20,7 +20,6 @@ The collected data then, is inserted into a Postgres database instance.
 ![my image](./assets/Architecture.drawio.png)
 
 ## Scripts
-Shell script description and usage (use markdown code block for script usage)
 - psql_docker.sh: Used to start, stop or create a Postgres container.
 
 - host_info.sh: Collects host's hardware specifications.
@@ -44,8 +43,6 @@ Since this project is an MVP, I tested the program on my own machine. The tables
 The program is deployed on GitHub and whoever downloads it could use it.
 
 # Improvements
-Write at least three things you want to improve
-e.g.
 - Handeling databases better
 - Speed
 - Using regex more
