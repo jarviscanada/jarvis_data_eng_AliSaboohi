@@ -1,0 +1,120 @@
+# Preferred name (Characters only)
+name: "Ali Saboohi"
+# Your GitHub repo root URL
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_AliSaboohi
+
+# Introduce yourself, your academic and professional background.
+# What excites you about the software industry and your passion. At least 80 words
+summary: Hi, I'm a recent computer science graduate from Ryerson university. During the four years my main focus was on backend development, machine learning and computer vision. In Jarvis, I became proficient in technologies such as git, docker, Java ,RDBMS/SQL, Hadoop, Spark etc. Looking forward to become a Big Data Engineer.
+
+# Group your skills by level.
+# Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
+skills:
+  # At least 5 skills
+  proficient:
+    - Java
+    - Linux/Bash
+    - RDBMS/SQL
+    - Agile/Scrum
+    - Git
+  # At least 5 skills
+  competent:
+    - Donec
+    - fermentum
+    - Donec
+    - fermentum
+    - Donec
+  # At least 5 skills
+  familiar:
+    - Matlab
+    - Python
+    - ReactJS
+    - MongoDB
+    - Node.js
+
+# List of Jarvis projects
+jarvis_projects:
+  - name: "Cluster Monitor"
+    git_url: "/linux_sql"
+    # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: The Objective of this project was to design an MVP in order to gather hardware specifications and resource usage of each node in a Linux cluster. In Jarvis, the Linux cluster administration team manages a Linux cluster of ten nodes running Centos7. These nodes are internally connected through a switch and able to communicate through internal IPv4 addresses. The administration team has requested a bash agent program that is installed on each node and gathers the requested data. The collected data is inserted into a Postgres database instance which is pulled from Docker Hub. Moreover, the LCA team will use the data to generate reports for future resource planning purposes. In order to make decision making easier, a queries file has been created for the administration team to see what nodes have the highest memory and number of CPUs, what is their usage over a five minute interval and detecting failures.
+  - name: "Core Java Apps"
+    git_url: "/core_java"
+    description:
+      - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+      - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+      - "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+  - name: "Springboot App"
+    git_url: "/springboot"
+    description: ""
+  - name: "Python Data Analytics"
+    git_url: "/python_data_anlytics"
+    description: ""
+  - name: "Hadoop"
+    git_url: "/hadoop"
+    description: ""
+  - name: "Spark"
+    git_url: "/spark"
+    description: ""
+  - name: "Cloud/DevOps"
+    git_url: "/cloud_devops"
+    description: ""
+
+# List of personal or academic projects
+# Feel free to add more projects
+highlighted_projects:
+    #project name
+  - name: "Clothing Store Web Application"
+    #URL is optional
+    git_url: 
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Designed and Developed Online clothing Web site with Online Shopping facility. using Java and Spring Boot for backend and React Js for Frontend. Frontend developed as SPA application in order to use Client Computer Resources using JavaScript ES6 Version, Vanilla JavaScript, Babel, React-Dom-route, Redux, HTML and CSS, in Backend using Spring Core for dependency Injection and AOP, Spring MVC to develop Rest Endpoints (RestController Bean) and JSON. implementing Data Entity Classes and using  Hibernate, Spring Data JPA, JPA QL for managing Data and store it in MySQL Database
+
+#List of professional experience
+#The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+#The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
+professional_experience:
+  #Write your Jarvis role as a professional experience rather than training.
+  - title: "Software Developer"
+    company: "Jarvis"
+    duration: "2020-present"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
+  - title: "Tutor"
+    company: "XYZ Company"
+    duration: "2019"
+    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
+
+#List of edcuation
+education: 
+  - school_name: "Ryerson university"
+    duration: "2018-2021"
+    degree: "Bachelor of Computer Science"
+    department: "Science and Engineering"
+    # optional
+    awards_achievements: 
+      - "Scholarship"
+      - "Dean's List (2015, 2016): Ut enim ad minim veniam"
+      - "GPA: 3.8/4.0"
+  - school_name: "XYZ university"
+    duration: "2016-2018"
+    degree: "Master of Engineering"
+    department: "Electrical and Computer Engineering"
+    awards_achievements: 
+
+#Optional section
+others:
+    #category
+  - title: "Certificates"
+    #list of items
+    bullets:
+      - "Udacity Machine Learning (2019)"
+  - title: "Awards"
+    bullets:
+      - "Winner"
+  - title: "Activities/Hobbies"
+    bullets:
+      - "Basketball player"
+      - "Competitive gaming"
+      - "Volunteer, ABC Food bank: Ut enim ad minim veniam"
