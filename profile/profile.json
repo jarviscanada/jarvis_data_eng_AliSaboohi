@@ -1,22 +1,11 @@
 {
   "education": [
     {
-      "awards_achievements": [
-        "Scholarship",
-        "Dean's List (2015, 2016): Ut enim ad minim veniam",
-        "GPA: 3.8/4.0"
-      ],
+      "awards_achievements": null,
       "degree": "Bachelor of Computer Science",
       "department": "Science and Engineering",
       "duration": "2018-2021",
       "school_name": "Ryerson university"
-    },
-    {
-      "awards_achievements": null,
-      "degree": "Master of Engineering",
-      "department": "Electrical and Computer Engineering",
-      "duration": "2016-2018",
-      "school_name": "XYZ university"
     }
   ],
   "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_AliSaboohi",
@@ -35,58 +24,21 @@
     },
     {
       "description": [
-        "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
-        "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
-        "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+        "Twitter App: ",
+        "JDBC App: ",
+        "Grep App: "
       ],
       "git_url": "/core_java",
       "name": "Core Java Apps"
-    },
-    {
-      "description": "",
-      "git_url": "/springboot",
-      "name": "Springboot App"
-    },
-    {
-      "description": "",
-      "git_url": "/python_data_anlytics",
-      "name": "Python Data Analytics"
-    },
-    {
-      "description": "",
-      "git_url": "/hadoop",
-      "name": "Hadoop"
-    },
-    {
-      "description": "",
-      "git_url": "/spark",
-      "name": "Spark"
-    },
-    {
-      "description": "",
-      "git_url": "/cloud_devops",
-      "name": "Cloud/DevOps"
     }
   ],
   "name": "Ali Saboohi",
   "others": [
     {
       "bullets": [
-        "Udacity Machine Learning (2019)"
-      ],
-      "title": "Certificates"
-    },
-    {
-      "bullets": [
-        "Winner"
-      ],
-      "title": "Awards"
-    },
-    {
-      "bullets": [
-        "Basketball player",
-        "Competitive gaming",
-        "Volunteer, ABC Food bank: Ut enim ad minim veniam"
+        "Tennis player",
+        "Soccer fan",
+        "Gaming"
       ],
       "title": "Activities/Hobbies"
     }
@@ -94,24 +46,18 @@
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
+      "description": "aaa aa a aaa aa aa hh hh hhhh hhh hh hh h hh hhh hh hh h hh h hhj j jjj jjjjj jjjj jjj j j j  j j j j j j j j j j j j ",
       "duration": "2020-present",
       "title": "Software Developer"
-    },
-    {
-      "company": "XYZ Company",
-      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
-      "duration": "2019",
-      "title": "Tutor"
     }
   ],
   "skills": {
     "competent": [
-      "Donec",
-      "fermentum",
-      "Donec",
-      "fermentum",
-      "Donec"
+      "Docker",
+      "Maven",
+      "REST API",
+      "JDBC",
+      "Spring Boot"
     ],
     "familiar": [
       "Matlab",
@@ -128,5 +74,5 @@
       "Git"
     ]
   },
-  "summary": "Hi, I'm a recent computer science graduate from Ryerson university. During the four years my main focus was on backend development, machine learning and computer vision. In Jarvis, I became proficient in technologies such as git, docker, Java ,RDBMS/SQL, Hadoop, Spark etc. Looking forward to become a Big Data Engineer."
+  "summary": "Hi, I'm a recent graduate from Ryerson university with a bachelor's degree in Computer Science. During my four years at Ryerson my main focus was on backend development, machine learning and computer vision where I worked on many projects such as Face Detection application using HOG features, Handwrite Recognition application and created a few websites. Currently, I am a Software and Data Engineer at Jarvis where I am trained to master the tools and frameworks necessary for professional work enviroment such as Git, Docker, Java, Spring boot, RDBMS, Maven etc. In addition to this, I have a passion for the insights data can provide. My experiences taught me how to come up with creative solutions to the real-world problems and I am looking forward to bring my experiences and skills to your team."
 }

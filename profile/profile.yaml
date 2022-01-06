@@ -5,7 +5,7 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_AliSaboohi
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: Hi, I'm a recent computer science graduate from Ryerson university. During the four years my main focus was on backend development, machine learning and computer vision. In Jarvis, I became proficient in technologies such as git, docker, Java ,RDBMS/SQL, Hadoop, Spark etc. Looking forward to become a Big Data Engineer.
+summary: Hi, I'm a recent graduate from Ryerson university with a bachelor's degree in Computer Science. During my four years at Ryerson my main focus was on backend development, machine learning and computer vision where I worked on many projects such as Face Detection application using HOG features, Handwrite Recognition application and created a few websites. Currently, I am a Software and Data Engineer at Jarvis where I am trained to master the tools and frameworks necessary for professional work enviroment such as Git, Docker, Java, Spring boot, RDBMS, Maven etc. In addition to this, I have a passion for the insights data can provide. My experiences taught me how to come up with creative solutions to the real-world problems and I am looking forward to bring my experiences and skills to your team. 
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
@@ -19,11 +19,11 @@ skills:
     - Git
   # At least 5 skills
   competent:
-    - Donec
-    - fermentum
-    - Donec
-    - fermentum
-    - Donec
+    - Docker
+    - Maven
+    - REST API
+    - JDBC
+    - Spring Boot
   # At least 5 skills
   familiar:
     - Matlab
@@ -42,24 +42,9 @@ jarvis_projects:
   - name: "Core Java Apps"
     git_url: "/core_java"
     description:
-      - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      - "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-  - name: "Springboot App"
-    git_url: "/springboot"
-    description: ""
-  - name: "Python Data Analytics"
-    git_url: "/python_data_anlytics"
-    description: ""
-  - name: "Hadoop"
-    git_url: "/hadoop"
-    description: ""
-  - name: "Spark"
-    git_url: "/spark"
-    description: ""
-  - name: "Cloud/DevOps"
-    git_url: "/cloud_devops"
-    description: ""
+      - "Twitter App: "
+      - "JDBC App: "
+      - "Grep App: "
 
 # List of personal or academic projects
 # Feel free to add more projects
@@ -80,11 +65,11 @@ professional_experience:
     company: "Jarvis"
     duration: "2020-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
-  - title: "Tutor"
-    company: "XYZ Company"
-    duration: "2019"
-    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
+    description: "aaa aa a aaa aa aa hh hh hhhh hhh hh hh h hh hhh hh hh h hh h hhj j jjj jjjjj jjjj jjj j j j  j j j j j j j j j j j j "
+#  - title: "Tutor"
+#    company: "XYZ Company"
+#    duration: "2019"
+#    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
 
 #List of edcuation
 education: 
@@ -94,27 +79,27 @@ education:
     department: "Science and Engineering"
     # optional
     awards_achievements: 
-      - "Scholarship"
-      - "Dean's List (2015, 2016): Ut enim ad minim veniam"
-      - "GPA: 3.8/4.0"
-  - school_name: "XYZ university"
-    duration: "2016-2018"
-    degree: "Master of Engineering"
-    department: "Electrical and Computer Engineering"
-    awards_achievements: 
+#      - "Scholarship"
+#      - "Dean's List (2015, 2016): Ut enim ad minim veniam"
+#      - "GPA: 3.8/4.0"
+#  - school_name: "XYZ university"
+#    duration: "2016-2018"
+#    degree: "Master of Engineering"
+#    department: "Electrical and Computer Engineering"
+#    awards_achievements: 
 
 #Optional section
 others:
-    #category
-  - title: "Certificates"
-    #list of items
-    bullets:
-      - "Udacity Machine Learning (2019)"
-  - title: "Awards"
-    bullets:
-      - "Winner"
-  - title: "Activities/Hobbies"
-    bullets:
-      - "Basketball player"
-      - "Competitive gaming"
-      - "Volunteer, ABC Food bank: Ut enim ad minim veniam"
+#category
+# - title: "Certificates"
+#    #list of items
+#   bullets:
+#      - "Udacity Machine Learning (2019)"
+# - title: "Awards"
+#   bullets:
+#      - "Winner"
+ - title: "Activities/Hobbies"
+   bullets:
+      - "Tennis player"
+      - "Soccer fan"
+      - "Gaming"
