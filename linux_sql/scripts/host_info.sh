@@ -5,7 +5,7 @@ psql_user=$4
 psql_password=$5
 
 if [ $# -ne  5 ]; then
-  echo "Bad Arguments"
+  echo "Number of arguments must be 5"
   exit 1
 fi
 

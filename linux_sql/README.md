@@ -4,11 +4,11 @@ The Objective of this project is to design an MVP in order to gather hardware sp
 
 # Quick Start
 
-- bash ./scripts/psql_docker.sh start
-- psql -h localhost -U postgres -d host_agent -f sql/ddl.sql
-- bash ./scripts/host_info.sh localhost 5432 host_agent postgres password
-- bash ./scripts/host_usage.sh localhost 5432 host_agent postgres password
-- Crontab -e *****
+- `bash psql_docker.sh start`: Starts the docker container.
+- `psql -h localhost -U postgres -d host_agent -f sql/ddl.sql`: Connecting to the psql instance and creating the tables.
+- `bash ./scripts/host_info.sh localhost 5432 host_agent postgres password`: Collecting host information.
+- `bash ./scripts/host_usage.sh localhost 5432 host_agent postgres password`: Collecting host usage.
+- `Crontab`: Made with 5 asterisks to insert usage every minute.
 
 # Implemenation
 The bash agent program consists of two bash scripts: host_info.sh and host_usage.sh.
@@ -32,15 +32,38 @@ The collected data then, is inserted into a Postgres database instance.
 
 ## Database Modeling
 
-- `host_info` : id (PRIMARY KEY) | hostname | cpu_number | cpu_architecture | cpu_model | cpu_mhz | L2_cache | total_memory | timestamp
+- `host_info` :
 
-- `host_usage` : host_id (FOREIGN KEY references host_info primary key) | timestamp | memory_free | cpu_idle | cpu_kernel | disk_io | disk_available
+  | Columns          | Constraints                 |
+  |------------------|-----------------------------|  
+  | id               | PRIMARY KEY SERIAL NOT NULL |
+  | host_name        | UNIQUE VARCHAR NOT NULL     |
+  | cpu_number       | SMALLINT NOT NULL           |
+  | cpu_architecture | VARCHAR NOT NULL            |
+  | cpu_model        | VARCHAR NOT NULL            |
+  | cpu_mhz          | DECIMAL NOT NULL            |
+  | L2_cache         | VARCHAR NOT NULL            |
+  | total_mem        | VARCHAR NOT NULL            |
+  | "timestamp"      | VARCHAR NOT NULL            |
+
+- `host_usage` :
+
+  | Columns        | Constraints                 |
+  |----------------|-----------------------------|  
+  | host_id        | FOREIGN KEY SERIAL NOT NULL |
+  | "timestamp"    | VARCHAR NOT NULL            |
+  | memory_free    | INT NOT NULL                |
+  | cpu_idle       | SMALLINT NOT NULL           |
+  | cpu_kernel     | SMALLINT NOT NULL           |
+  | disk_io        | SMALLINT NOT NULL           |
+  | disk_available | VARCHAR NOT NULL            |
+
 
 # Test
 Since this project is an MVP, I tested the program on my own machine. The tables are set, insertions work fine and corntab is inserting the usage every minute into the host_usage table. In addition to this, the program is written in a way that it would work on a cluster environment of course.
 
 # Deployment
-The program is deployed on GitHub and whoever downloads it could use it.
+The program is deployed on GitHub and whoever downloads it could use it. The application can be wrapped in a docker image which can be deployed on any cloud provider server.
 
 # Improvements
 - Handeling databases better
