@@ -30,7 +30,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AliSaboohi
 
 ## Professional Experiences
 
-**Software Developer, Jarvis (2020-present)**: aaa aa a aaa aa aa hh hh hhhh hhh hh hh h hh hhh hh hh h hh h hhj j jjj jjjjj jjjj jjj j j j  j j j j j j j j j j j j 
+**Software Developer, Jarvis (2020-present)**: Collaborated with a Software and Data engineering team in an Agile enviroment in order to work on various projects using technologies, tools and frameworks such as git, Maven, Java, PostgresSQL, IntelliJ, Docker and bash just to name a few. Attended daily scrum meetings as well as bi-weekly sprint retrospectives. Additionaly, studied and practiced new technologies and better ways to come up with better solutions to the real-world problems.
 
 
 ## Education
