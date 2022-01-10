@@ -63,12 +63,13 @@ public class JavaGrepImp implements JavaGrep {
 
   @Override
   public List<String> readLines(File inputFile) {
-//        The Java FileReader class, java. io. FileReader makes it possible to read the contents of a file
-//        as a stream of characters. It works much like the FileInputStream except the FileInputStream reads bytes,
-//        whereas the FileReader reads characters. The FileReader is intended to read text, in other words.
+    /**
+        The Java FileReader class, java. io. FileReader makes it possible to read the contents of a file
+        as a stream of characters. It works much like the FileInputStream except the FileInputStream reads bytes,
+        whereas the FileReader reads characters. The FileReader is intended to read text, in other words.
 
-//        Bufferedreader lets us to invoke extra methods such as readLine()!!!!
-//        (line = br.readLine())!=null
+        Bufferedreader lets us to invoke extra methods such as readLine()
+     */
     List<String> list = new ArrayList<>();
     try (BufferedReader br = new BufferedReader(new FileReader(inputFile))) {
       String line;

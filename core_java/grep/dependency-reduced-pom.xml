@@ -18,7 +18,7 @@
             <configuration>
               <transformers>
                 <transformer>
-                  <mainClass>ca.jrvs.apps.grep.JavaGrepImp</mainClass>
+                  <mainClass>ca.jrvs.apps.grep.JavaGrepLambdaImp</mainClass>
                 </transformer>
               </transformers>
             </configuration>
