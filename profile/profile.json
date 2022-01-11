@@ -11,25 +11,16 @@
   "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_AliSaboohi",
   "highlighted_projects": [
     {
-      "description": "Designed and Developed Online clothing Web site with Online Shopping facility. using Java and Spring Boot for backend and React Js for Frontend. Frontend developed as SPA application in order to use Client Computer Resources using JavaScript ES6 Version, Vanilla JavaScript, Babel, React-Dom-route, Redux, HTML and CSS, in Backend using Spring Core for dependency Injection and AOP, Spring MVC to develop Rest Endpoints (RestController Bean) and JSON. implementing Data Entity Classes and using  Hibernate, Spring Data JPA, JPA QL for managing Data and store it in MySQL Database",
+      "description": "Designed and Developed an online clothing e-commerce website. The frontend was developed using JavaScript ES6 Version, Vanilla JavaScript, Babel, React-Dom-route, Redux, HTML and CSS. The backend was developed using Spring Core for dependency Injection and AOP, Spring MVC to build Rest Endpoints and JSON. Implemented Data Entity Classes using Hibernate, Spring Data JPA, JPA QL to manage and store data in MySQL Database.",
       "git_url": null,
       "name": "Clothing Store Web Application"
     }
   ],
   "jarvis_projects": [
     {
-      "description": "The Objective of this project was to design an MVP in order to gather hardware specifications and resource usage of each node in a Linux cluster. In Jarvis, the Linux cluster administration team manages a Linux cluster of ten nodes running Centos7. These nodes are internally connected through a switch and able to communicate through internal IPv4 addresses. The administration team has requested a bash agent program that is installed on each node and gathers the requested data. The collected data is inserted into a Postgres database instance which is pulled from Docker Hub. Moreover, the LCA team will use the data to generate reports for future resource planning purposes. In order to make decision making easier, a queries file has been created for the administration team to see what nodes have the highest memory and number of CPUs, what is their usage over a five minute interval and detecting failures.",
+      "description": "Developed a Linux cluster monitoring agent using bash scripts to collect hardware information and usage of each node in real-time. The collected information is persisted into a PostgreSQL database instance provisioned using a Docker container. The usage is being collected continuously using crontab. Additionally, wrote SQL queries to query data for later data analysis, failure detection as an example.",
       "git_url": "/linux_sql",
       "name": "Cluster Monitor"
-    },
-    {
-      "description": [
-        "Twitter App: ",
-        "JDBC App: ",
-        "Grep App: "
-      ],
-      "git_url": "/core_java",
-      "name": "Core Java Apps"
     }
   ],
   "name": "Ali Saboohi",
@@ -46,18 +37,18 @@
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "Collaborated with a Software and Data engineering team in an Agile enviroment in order to work on various projects using technologies, tools and frameworks such as git, Maven, Java, PostgresSQL, IntelliJ, Docker and bash just to name a few. Attended daily scrum meetings as well as bi-weekly sprint retrospectives. Additionaly, studied and practiced new technologies and better ways to come up with better solutions to the real-world problems.",
+      "description": "Collaborated with a Software and Data engineering team in an Agile environment to work on various projects using technologies, tools and frameworks such as git, Maven, Java, PostgresSQL, IntelliJ, Docker, etc. Organized daily scrum meetings as well as bi-weekly sprint retrospectives. Studied and practiced new technologies and better ways to develop better solutions to real-world problems.",
       "duration": "2020-present",
       "title": "Software Developer"
     }
   ],
   "skills": {
     "competent": [
-      "Docker",
-      "Maven",
+      "Spring Boot",
       "REST API",
       "JDBC",
-      "Spring Boot"
+      "Docker",
+      "Maven"
     ],
     "familiar": [
       "Matlab",
@@ -74,5 +65,5 @@
       "Git"
     ]
   },
-  "summary": "Hi, I'm a recent graduate from Ryerson university with a bachelor's degree in Computer Science. During my four years at Ryerson my main focus was on backend development, machine learning and computer vision where I worked on many projects such as Face Detection application using HOG features, Handwrite Recognition application and created a few websites. Currently, I am a Software and Data Engineer at Jarvis where I am trained to master the tools and frameworks necessary for professional work enviroment such as Git, Docker, Java, Spring boot, RDBMS, Maven etc. In addition to this, I have a passion for the insights data can provide. My experiences taught me how to come up with creative solutions to the real-world problems and I am looking forward to bring my experiences and skills to your team."
+  "summary": "I'm a recent graduate from Ryerson University with a bachelor's degree in Computer Science. During my four years at Ryerson, my main focus was on backend development, machine learning and computer vision, where I worked on many projects such as Face Detection application using HOG features, Handwrite Recognition application and created a few websites. Currently, I am a Software and Data Engineer at Jarvis, where I am trained to master the tools and frameworks necessary for a professional work environment such as Git, Docker, Java, Spring boot, RDBMS, Maven etc. In addition to this, I have a passion for the insights data can provide. My experiences taught me how to come up with creative solutions to real-world problems, and I am looking forward to bringing my experiences and skills to your team."
 }
