@@ -32,6 +32,6 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AliSaboohi
 
 
 ## Miscellaneous
-- Tennis player
+- Tennis player(Central Bank Sporting Club)
 - Soccer fan
 - Gaming
