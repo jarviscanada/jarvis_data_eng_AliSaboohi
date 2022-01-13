@@ -22,7 +22,7 @@ public class JDBCExecutor {
       logger.info(String.valueOf(order));
 
     }catch (SQLException e){
-      logger.error("There is a problem", e);
+      logger.error("SQL exception error", e);
     }
 
   }
