@@ -1,5 +1,4 @@
 package ca.jrvs.apps.grep;
-//import com.sun.org.slf4j.internal.LoggerFactory;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -90,7 +89,6 @@ public class JavaGrepImp implements JavaGrep {
 
   @Override
   public void writeToFile(List<String> lines) throws IOException {
-    //why can't I use the try-with-resource method here why throws IOException
     BufferedWriter bw = new BufferedWriter(new FileWriter(this.outFile));
     for(String line : lines) {
       bw.write(line + "\n");
