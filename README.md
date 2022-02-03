@@ -17,6 +17,11 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AliSaboohi
 
 **Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AliSaboohi/tree/master/linux_sql)]: Developed a Linux cluster monitoring agent using bash scripts to collect hardware information and usage of each node in real-time. The collected information is persisted into a PostgreSQL database instance provisioned using a Docker container. The usage is being collected continuously using crontab. Additionally, wrote SQL queries to query data for later data analysis, failure detection as an example.
 
+**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AliSaboohi/tree/master/core_java)]:
+      
+  - JDBC App: Developed and implemented a simple Java application that leverages JDBC to make a connection to a Postgres database. PostgreSQL database instance provisioned using a Docker container. The objective of this project was to implement a DAO to be able to better understand the CRUD operations using one or any number of tables in the database. The project is managed and built using Maven.
+  - Grep App: Designed and developed a java 8 maven structured application to recreate a simplified version of the Linux grep command. The program takes a pattern, a root directory, and an output file as arguments and then, proceeds to recursively search the directory to find all the files and find the user-given pattern in all the lines. Furthermore, when lines are found the program writes the lines to an output file. The main objective of this project was to get comfortable with technologies such as maven, docker, java, lambda, stream API, and regular expressions. The program is written in two ways: one takes advantage of BufferedReader class and the other uses Lambda and stream API. The program has been deployed on Docker.
+
 
 ## Highlighted Projects
 **Clothing Store Web Application**: Designed and Developed an online clothing e-commerce website. The frontend was developed using JavaScript ES6 Version, Vanilla JavaScript, Babel, React-Dom-route, Redux, HTML and CSS. The backend was developed using Spring Core for dependency Injection and AOP, Spring MVC to build Rest Endpoints and JSON. Implemented Data Entity Classes using Hibernate, Spring Data JPA, JPA QL to manage and store data in MySQL Database.
