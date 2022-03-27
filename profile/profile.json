@@ -25,7 +25,8 @@
     {
       "description": [
         "JDBC App: Developed and implemented a simple Java application that leverages JDBC to make a connection to a Postgres database. PostgreSQL database instance provisioned using a Docker container. The objective of this project was to implement a DAO to be able to better understand the CRUD operations using one or any number of tables in the database. The project is managed and built using Maven.",
-        "Grep App: Designed and developed a java 8 maven structured application to recreate a simplified version of the Linux grep command. The program takes a pattern, a root directory, and an output file as arguments and then, proceeds to recursively search the directory to find all the files and find the user-given pattern in all the lines. Furthermore, when lines are found the program writes the lines to an output file."
+        "Grep App: Designed and developed a java 8 maven structured application to recreate a simplified version of the Linux grep command. The program takes a pattern, a root directory, and an output file as arguments and then, proceeds to recursively search the directory to find all the files and find the user-given pattern in all the lines. Furthermore, when lines are found the program writes the lines to an output file.",
+        "Twitter App: Developed and designed a Java program for users to post, show and delete tweets from the command line. This program uses an HTTP client to interact with the Twitter REST API. The main objective of this project was to get comfortable with technologies such as REST APIs and Java libraries such as Apache HTTP Components and Signpost OAuth library to authenticate and send requests to Twitter REST API as well as Jackson for parsing and processing JSON."
       ],
       "git_url": "/core_java",
       "name": "Core Java Apps"
