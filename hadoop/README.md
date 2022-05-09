@@ -1,11 +1,11 @@
 # Table of contents
 * [Introduction](#Introduction)
-* [Hadoop Cluster](#Hadoop Cluster)
-* [Hive Project](#Hive Project)
+* [Hadoop Cluster](#Hadoop-Cluster)
+* [Hive Project](#Hive-Project)
 * [Improvements](#Improvements)
 
 # Introduction
-The Jarvis Data Engineering team requested an analysis on a table called World Development Indicator (WDI) taken from Googles BigQuery. The main objective of this project was to first, learn core Hadoop concepts: HDFS, MapReduce, Yarn, and second, to analyze data using Hive and Zeppelin on a Hadoop cluster created using Google Cloud dataproc.
+The Jarvis Data Engineering team requested an analysis on a table called World Development Indicator (WDI) taken from Google's BigQuery. The main objective of this project was to first, learn core Hadoop concepts: HDFS, MapReduce, Yarn, and second, to analyze data using Hive and Zeppelin on a Hadoop cluster created using Google Cloud dataproc.
 
 # Hadoop Cluster
 
