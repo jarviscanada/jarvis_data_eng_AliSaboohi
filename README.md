@@ -25,6 +25,8 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AliSaboohi
 
 **Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AliSaboohi/tree/master/python_data_analytics)]: Delivered a proof of concept (POC) project that helps the LGS marketing team by analyzing customer shopping behavior. The main objective of this project was to utilize Jupyter Notebook, Python libraries such as NumPy, Pandas, and Matplotlib for data analysis. In addition to this, the client retail data was loaded and used for analysis using a Postgres data warehouse.
 
+**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AliSaboohi/tree/master/hadoop)]: The Jarvis Data Engineering team requested an analysis on a table called World Development Indicator (WDI) taken from Google's BigQuery. The main objective of this project was to first, learn core Hadoop concepts: HDFS, MapReduce, Yarn, and second, to analyze data using Hive and Zeppelin on a Hadoop cluster created using Google Cloud dataproc.
+
 
 ## Highlighted Projects
 **Clothing Store Web Application**: Designed and Developed an online clothing e-commerce website. The frontend was developed using JavaScript ES6 Version, Vanilla JavaScript, Babel, React-Dom-route, Redux, HTML and CSS. The backend was developed using Spring Core for dependency Injection and AOP, Spring MVC to build Rest Endpoints and JSON. Implemented Data Entity Classes using Hibernate, Spring Data JPA, JPA QL to manage and store data in MySQL Database.
