@@ -34,7 +34,9 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AliSaboohi
 
 ## Professional Experiences
 
-**Software Developer, Jarvis (2020-present)**: Collaborated with a Software and Data engineering team in an Agile environment to work on various projects using technologies, tools and frameworks such as git, Maven, Java, PostgresSQL, IntelliJ, Docker, etc. Organized daily scrum meetings as well as bi-weekly sprint retrospectives. Studied and practiced new technologies and better ways to develop better solutions to real-world problems.
+**Software Developer, Jarvis (2021-present)**: Collaborated with a Software and Data engineering team in an Agile environment to work on various projects using technologies, tools and frameworks such as git, Maven, Java, PostgresSQL, IntelliJ, Docker, etc. Organized daily scrum meetings as well as bi-weekly sprint retrospectives. Studied and practiced new technologies and better ways to develop better solutions to real-world problems.
+
+**DevOps Engineer, CIBC (2022)**: Worked as a DevOps engineer. Created change and incident tickets. Worked and studied under senior developers to learn and get comfortable with CI/CD tools, JFrog artifactory and CIBC's DevOps environment.
 
 
 ## Education
